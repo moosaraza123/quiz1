@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+</style>
+<body>
+  <h1>INSURANCE POLICY FORM</h1>
+  <h2>Personal Information</h2>
+    <form action="web.js" method="post">
+        <label for="firstname">First Name </label>
+        <input type="text" name="firstname" id="firstname" >
+        <label for="lastname">Last Name </label>
+        <input type="text" name="lastname" id="lastname" >
+        <br>
+        <br>
+        <label for="mail">Email Address</label>
+        <input type="email" id="mail" name="mail" placeholder="username@gmail.com" style="width: 36vw;">
+        <br>
+        <br>
+        <label for="dateOb">Date Of Birth</label>
+        <input type="date" id="dateOb" name="dateOb">
+       <label for="phone">Phone Number</label>
+       <input type="tel" id="phone">
+       <p><label for="address">Address</label></p>
+       <textarea id="address" name="address" rows="4" cols="55"></textarea>
+       <br>
+       <br>
+<label for="gndr">Your Gender</label>
+<input type="radio" id="male" name="gndr" value="male">
+<label for="male">Male</label>
+<input type="radio" id="fmale" name="gndr" value="fmale">
+<label for="fmale">Female</label>
+<input type="radio" id="other" name="gndr" value="othert">
+<label for="javascript">other</label>
+<br>
+<br>
+<h3 style="font-size: x-large;">Employement Information</h3>
+<label for="occupation" >Occupation</label>
+<input type="text" name="occ" id="occupation" style="width: 22.5vw;">
+<label for="Efirstname">Employer Name </label>
+<input type="text" name="Efirstname" id="Efirstname" >
+<br>
+<br>
+       <textarea id="address" name="address" rows="4" cols="55" placeholder="Office Address"></textarea>
+       <br>
+       <label for="income">Income</label>
+       <input type="range" name="income" id="income">
+
+       <h4 style="font-size: large;">Insurance Coverage Information </h4>
+       <label for="browser">Choose your insurance Type</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="2">
+    <option value="3">
+    <option value="4">
+    <option value="5">
+    <option value="6">
+  </datalist>
+
+  <label for="len">length of Policy in years</label>
+<input type="number" name="len" id="len">
+
+<h5 style="font-size: x-large;" >health Information</h5>
+<label for="cond" style="margin-right: 10px;">Previous Medical Condition </label>
+<label for="Ycond">yes</label>
+<input type="radio" id="Ycond" name="cond">
+<label for="Ncond">No</label>
+<input type="radio" id="Ncond" name="cond">
+<br>
+<br>
+<label for="cond" style="margin-right: 10px;">Current Medication </label>
+<label for="Ycond">yes</label>
+<input type="radio" id="Ycond" name="cond">
+<label for="Ncond">No</label>
+<input type="radio" id="Ncond" name="cond">
+<h6 style="font-size: x-large;">LifeStyle Information</h6>
+<label for="cond" style="margin-right: 10px;">Do you Smoke</label>
+<label for="Ycond">yes</label>
+<input type="radio" id="Ycond" name="cond">
+<label for="Ncond">No</label>
+<input type="radio" id="Ncond" name="cond">
+<label for="occa">Occasionally</label>
+<input type="radio" id="occa" name="cond"> 
+<br>
+<br>
+
+<label for="cond" style="margin-right: 10px;">High Rist activity</label>
+<label for="Ycond">yes</label>
+<input type="radio" id="Ycond" name="cond">
+<label for="Ncond">No</label>
+<input type="radio" id="Ncond" name="cond">
+
+<h6 style="font-size: x-large;">Beneficiary Information</h6>
+<label for="Ben">Who will recieve insurance after your death</label>
+<input type="text" name="firstname" id="Ben" >
+<br>
+<br>
+<label for="mail">his?her Email</label>
+        <input type="email" id="mail" name="mail" placeholder="username@gmail.com" >
+        <br>
+        <br>
+        <label for="n">his/her number</label>
+        <input type="tel" id="n" name="n">
+<br>
+<br>
+<label for="cond" style="margin-right: 10px;">Do you agree to all terms and conditions<label>
+<label for="Ycond">yes</label>
+<input type="radio" id="Ycond" name="cond">
+<label for="Ncond">No</label>
+<input type="radio" id="Ncond" name="cond">
+<br>
+<br>
+
+<textarea name="" id="" cols="30" rows="10" placeholder="Any Comments"></textarea>
+<br>
+<br>
+<input type="submit">
+        
+
+
+
+
+    </form>
+</body>
+</html>
